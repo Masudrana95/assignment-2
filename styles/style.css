@@ -194,3 +194,51 @@ p{
     letter-spacing: 0.3px;
     text-align: left;
 }
+/* Team style */
+.team{
+    border-radius: 18px;
+    background: rgb(34 34 34);
+    padding: 40px;
+}
+.teams-container{
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.teams-container h3{
+    font-size: 60px;
+}
+.teams-container p{
+    color:rgba(255, 255, 255, 0.5);
+}
+.colurm-1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.team-card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+}
+.team-card{
+    text-align: left;
+    position: relative;
+}
+.team-name{
+    position: absolute;
+    top: 85%;
+    left: 5%;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    /* transform: translate(-50%, -50%); */
+}
+.team-skils{
+    position: absolute;
+    top: 92%;
+    left: 5%;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    /* font-weight: bold; */
+    /* transform: translate(-50%, -50%); */
+}
