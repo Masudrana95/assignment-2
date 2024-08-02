@@ -242,3 +242,32 @@ p{
     /* font-weight: bold; */
     /* transform: translate(-50%, -50%); */
 }
+/* footer style */
+#footer-section{
+    background: rgb(34 34 34);
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer p{
+    text-align: left;
+    color: rgba(232, 230, 227, 0.5);
+}
+.footer-menu-1, .footer-menu-2{
+    padding-top: 1rem;
+}
+.footer-menu-1, .footer-menu-2, h4{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.footer-menu-1 p{
+    padding-bottom: 1rem;
+}
+.footer-menu-2 p{
+    padding-bottom: 1rem;
+}
+.all_rights{
+    padding-top: 10px;
+}
