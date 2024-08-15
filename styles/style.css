@@ -138,6 +138,9 @@ p{
     justify-content: space-between;
     align-items: center;
 }
+.habits-container p{
+    color:rgba(255, 255, 255, 0.5);
+}
 .habits-card img{
     border-radius: 50%;
     padding-bottom: 1rem;
@@ -249,7 +252,7 @@ p{
 .footer{
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    /* align-items: center; */
 }
 .footer p{
     text-align: left;
@@ -468,11 +471,17 @@ p{
     #footer-section{
         background: rgb(34 34 34);
     }
+    .logo-footer{
+        color: rgb(230, 83, 60);
+        font-style: italic;
+        font-size: 60px;
+        font-weight: 800;  
+    }
     .footer{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        align-items: center;
+        /* align-items: center; */
     }
     .footer p{
         text-align: left;
@@ -485,6 +494,7 @@ p{
     .footer-menu-1, .footer-menu-2, h4{
         padding-bottom: 1rem;
         padding-top: 1rem;
+        font-size: 35px;
     }
     .footer-menu-1 p{
         padding-bottom: 1rem;
@@ -493,7 +503,8 @@ p{
         padding-bottom: 1rem;
     }
     .all_rights{
-        padding-top: 5px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
     
 }
