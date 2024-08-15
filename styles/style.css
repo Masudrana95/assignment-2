@@ -310,6 +310,7 @@ p{
     }
     .banner-img{
         position: relative;
+        padding-left: 3rem;
     }
     .banner-btn-1, .banner-btn-2{
         position: absolute;
